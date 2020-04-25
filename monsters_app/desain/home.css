@@ -1,10 +1,47 @@
 @charset "utf-8";
 
 body {
-    font-family: sans-serif;
+
 }
 table{
+    width: 760px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tbody{
     width: 760;
+    height: 40px;
+
+
+}
+table tr{
+    width: 760px;
+    height: 38px;
+}
+table tr:nth-child(1) td{
+    width: 491px;
+    height: 38px;
+}
+table tr td b{
+    width: 480px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table tr td b a{
+    font-size: 16px;
+    font-color: blue;
+
+
+
+}
+table tr:nth-child(1) td:nth-child(2) {
+    width: 266px;
+    color: #96001c;
+    backgrond-color: red;
+    font-size: 1vw;
 }
 tr {
 
