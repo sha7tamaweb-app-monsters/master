@@ -1,2 +1,33 @@
 @charset "utf-8";
+body{
+    margin:0px;
+    padding:0px;
+}
+div {
+    margin: 0 auto;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:1px;
+    padding:1px;
+    width:760px;
+    margin: 0 auto;
+}
+table tr:nth-child(1) td:nth-child(1){
+    background-color:black;
+    color: white;
+    font-size: 16px;
+}
+table tr:nth-child(1) td:nth-child(2){
+    background-color:black;
+    margin: auto;
+    font-size: 24px;
+    color: red;
+}
+table tr:nth-child(1) td:nth-child(3){
+    background-color:black;
+    margin: auto;
+    font-size: 18px;
+    color: red;
+}
 
