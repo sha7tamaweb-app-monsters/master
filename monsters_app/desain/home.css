@@ -11,6 +11,7 @@ body{
     background-color: black;
     display: flex;
     justify-content: center;
+    margin: auto;
 
 }
 .hed ul{
@@ -18,6 +19,7 @@ body{
     width: 491;
     margin: 0;
     padding: 0;
+    list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +33,7 @@ body{
     font-size: 17;
 }
 .hed li a{
+    margin: 0 1;
     text-decoration: none;
     font-size: 16;
 }
@@ -56,4 +59,19 @@ body{
 }
 #st{
     font-size:24;
+}
+.face {
+    width: 760;
+    height: 196;
+    display: flex;
+    justify-content: center;
+}
+.face article{
+    width: 518;
+    height: 194;
+}
+.face section{
+    height: 194;
+    width: 242;
+
 }
