@@ -9,17 +9,22 @@ body{
     text-align: center;
     height: 40;
     background-color: black;
+    display: flex;
+    justify-content: center;
 
 }
 .hed ul{
+    font-size: 100%;
+    width: 491;
     margin: 0;
     padding: 0;
-    text-align: center:
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hed li{
     margin: auto;
     padding: 0;
-    display: inline-block;
 }
 .hed li b{
     color: white;
@@ -30,16 +35,19 @@ body{
     font-size: 16;
 }
 .hed nav{
-    font-size: 16;
-    width: 491;
+    font-size: 100%;
     height: 40;
-    display: inline-block;
     margin: 0;
+    width: 491;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .hed header{
+    width: 266;
     height: 40;
     margin: 0;
-    display: inline-block;
 }
 .rd {
     font-size: 18;
