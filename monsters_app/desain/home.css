@@ -1,39 +1,50 @@
 @charset "utf-8";
 body{
+    margin: 0px;
+    padding: 0px;
     text-align: center;
-    margin: auto;
-    text-align: left;
 }
 .hed{
     width: 760;
-}
-.wrapper{
-    width: 760;
-    overflow: hidden;
     text-align: center;
-    margin: auto;
+    height: 40;
+    background-color: black;
 
 }
-.wrapper ul{
-    padding: 0;
-    margin: 0;
-}
-.wrapper li{
+.hed ul{
     margin: 0;
     padding: 0;
-    display: inline;
+    text-align: center:
 }
-.wrapper nav{
+.hed li{
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+}
+.hed li b{
+    color: white;
+    font-size: 17;
+}
+.hed li a{
+    text-decoration: none;
     font-size: 16;
-    float: left;
+}
+.hed nav{
+    font-size: 16;
+    width: 491;
+    height: 40;
+    display: inline-block;
     margin: 0;
 }
-.wrapper header{
-    float: left;
+.hed header{
+    height: 40;
     margin: 0;
+    display: inline-block;
 }
-.wrapper p{
+.rd {
     font-size: 18;
+    margin: auto;
+    color: red;
 }
 #st{
     font-size:24;
