@@ -65,13 +65,72 @@ body{
     height: 196;
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 .face article{
     width: 518;
-    height: 194;
+    height: 196;
+    border: solid 1px;
+    border-top: none;
+    box-sizing: border-box;
+}
+.face article p{
+    margin: auto;
+    font-size: 100%;
 }
 .face section{
-    height: 194;
+    height: 196;
     width: 242;
 
+}
+.face section table{
+    height: 196;
+    width: 100%;
+    border-spacing: 0px;
+}
+#rogin_name{
+    height: 32;
+}
+#rogin_name td{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+}
+#imput{
+    height: 31;
+}
+#imput td{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+}
+#push{
+    height: 29;
+}
+#push td{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+}
+#new_acount{
+    height: 43;
+}
+#new_acount td{
+    width: 242;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box
+}
+#tournament_log{
+    height: 55;
+}
+#tournament_log td{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
 }
