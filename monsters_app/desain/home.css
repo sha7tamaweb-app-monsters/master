@@ -88,23 +88,35 @@ body{
     width: 100%;
     border-spacing: 0px;
 }
-#rogin_name{
+#login_name{
     height: 32;
 }
-#rogin_name td{
+#login_name td{
     border: solid 1px;
     border-top: none;
     border-left: none;
     box-sizing: border-box;
+    text-align: center;
 }
-#imput{
+#login_name p{
+    font-size: 13;
+    font-weight: bold;
+}
+#login_id{
     height: 31;
 }
-#imput td{
+#login_id td{
     border: solid 1px;
     border-top: none;
     border-left: none;
     box-sizing: border-box;
+    padding: 0px;
+    text-align: center;
+
+}
+#login_id input{
+    width: 115;
+    padding: 1 0;
 }
 #push{
     height: 29;
@@ -114,6 +126,7 @@ body{
     border-top: none;
     border-left: none;
     box-sizing: border-box;
+    text-align: center;
 }
 #new_acount{
     height: 43;
@@ -123,7 +136,9 @@ body{
     border: solid 1px;
     border-top: none;
     border-left: none;
-    box-sizing: border-box
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
 }
 #tournament_log{
     height: 55;
@@ -133,4 +148,9 @@ body{
     border-top: none;
     border-left: none;
     box-sizing: border-box;
+    text-align: center;
+}
+#script_view input{
+    width: 115;
+    padding: 1 0;
 }
