@@ -1,0 +1,311 @@
+@charset "utf-8";
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.hed{
+    width: 760;
+    text-align: center;
+    height: 40;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+.hed ul{
+    font-size: 100%;
+    width: 491;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hed li{
+    margin: auto;
+    padding: 0;
+}
+.hed li b{
+    color: white;
+    font-size: 17;
+}
+.hed li a{
+    margin: 0 1;
+    text-decoration: none;
+    font-size: 16;
+}
+.hed nav{
+    font-size: 100%;
+    height: 40;
+    margin: 0;
+    width: 491;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hed header{
+    width: 266;
+    height: 40;
+    margin: 0;
+}
+.rd {
+    font-size: 18;
+    margin: auto;
+    color: red;
+}
+#st{
+    font-size:24;
+}
+.face {
+    width: 760;
+    height: 196;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.face article{
+    width: 518;
+    height: 196;
+    border: solid 1px;
+    border-top: none;
+    box-sizing: border-box;
+    text-align: left;
+}
+.face article p{
+    margin: auto;
+    font-size: 100%;
+}
+.face section{
+    height: 196;
+    width: 242;
+
+}
+.face section table{
+    height: 196;
+    width: 100%;
+    border-spacing: 0px;
+}
+#login_name{
+    height: 32;
+}
+#login_name td{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+#login_name p{
+    font-size: 13;
+    font-weight: bold;
+}
+#login_id{
+    height: 31;
+}
+#login_id td{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 0px;
+    text-align: center;
+
+}
+#login_id input{
+    width: 115;
+    padding: 1 0;
+}
+#push{
+    height: 29;
+}
+#push td{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+#new_acount{
+    height: 43;
+}
+#new_acount td{
+    width: 242;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+}
+#tournament_log{
+    height: 55;
+}
+#tournament_log td{
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+#script_view input{
+    width: 115;
+    padding: 1 0;
+}
+#ranking_change{
+    width: 760px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: solid 1px;
+    margin: auto;
+}
+#ranking_change p{
+    width: 610;
+    height: 38;
+    border-right: solid 1px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#ranking_change p b{
+    padding-left: 2;
+}
+#ranking_change nav{
+    width: 150;
+    height: 38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 760px;
+    margin: auto;
+}
+main table{
+    width: 760px;
+    align-items: center;
+    border-collapse: collapse;
+}
+#title{
+    width: 760;
+    height: 26;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+#left {
+    width: 232;
+    height: 26;
+    padding: 0px;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-spacing: 0;
+}
+#right{
+    width: 528;
+    height: 26;
+    padding: 0px;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-left: none;
+    border-spacing: 0;
+}
+.carbox{
+    width: 760;
+    text-align: center;
+    align-items: bottom;
+    vertical-align: bottom;
+}
+.carbox p{
+    margin: 0;
+}
+.car p{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+.car{
+    width: 176px;
+    height: 142;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-top: 0px;
+    border-left: 0px;
+}
+.box p{
+    margin: 0;
+}
+.StatusTmp{
+    width: 110px;
+    height: 26;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-top: none;
+    text-align: center;
+}
+
+.StatusCt{
+    width:122px;
+    height: 26;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    text-align: right;
+    justify-content: center;
+}
+.box{
+    width: 232;
+}
+#deta{
+    height: 42;
+    align-items: center;
+}
+#datal{
+    width: 108;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-top: none;
+    text-align: center;
+    padding: 0;
+}
+#datar{
+    width: 122;
+    height: 100%;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+    font-size: 14;
+    padding: 0;
+}
+#bnk{
+    padding: 0 3;
+}
+#lib{
+    padding: 0 6;
+}
+#cm{
+    text-align: center;
+}
+#cml{
+    box-sizing: border-box;
+    border: solid 1px;
+    border-top: none;
+}
+#cmr{
+    box-sizing: border-box;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+}
